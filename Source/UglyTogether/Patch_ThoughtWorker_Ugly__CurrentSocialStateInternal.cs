@@ -7,6 +7,7 @@ namespace UglyTogether
 {
     [HarmonyPatch(typeof(ThoughtWorker_Ugly))]
     [HarmonyPatch("CurrentSocialStateInternal", new[] { typeof(Pawn), typeof(Pawn) })]
+    [HarmonyPriority(Priority.VeryLow)]
     public static class Patch_ThoughtWorker_Ugly__CurrentSocialStateInternal
     {
         public static void Postfix(ref ThoughtState __result, ref Pawn pawn)
