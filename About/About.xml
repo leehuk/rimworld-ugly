@@ -5,9 +5,10 @@
     <url></url>
     <supportedVersions>
       <li>1.4</li>
+      <li>1.5</li>
     </supportedVersions>
 <description>
-Removes the social debuff between pawns who are both ugly
+Removes the social debuff and lowered romance chance between pawns who are both ugly
 </description>
 <packageId>uglytogether.leeh</packageId>
 </ModMetaData>

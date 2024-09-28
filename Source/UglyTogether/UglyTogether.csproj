@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\Assemblies\</OutputPath>
+    <OutputPath>..\..\1.5\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patch_Pawn_RelationsTracker__PrettinessFactor.cs" />
     <Compile Include="Patch_ThoughtWorker_Ugly__CurrentSocialStateInternal.cs" />
     <Compile Include="UglyTogether.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
